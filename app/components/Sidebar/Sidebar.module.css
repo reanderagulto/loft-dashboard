@@ -1,0 +1,11 @@
+.sidebarNavContainer {
+    @apply px-[17px] pt-[17px] pb-[19.75px] bg-[#D9D9D9] max-w-[calc(max(17.184vw,_166px))] min-h-[594px] flex flex-col justify-between rounded-[8px] flex-[1_0_0];
+}
+
+.sidebarInnerContainer {
+    @apply flex flex-col justify-between gap-[61px];
+}
+
+.listItem {
+    @apply text-[14px] uppercase font-bold leading-[18px] hover:text-[#2F79BE] transition ease-in-out mb-[16px];
+}

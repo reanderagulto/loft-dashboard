@@ -14,7 +14,18 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    color: {
+      'loft-primary': '#419FF8', 
+      'loft-secondary': '#C1DDF8',
+      'loft-accent': '#2F79BE',
+      'loft-heading': '#2A4357'
+    }
   },
-  plugins: [],
+  plugins: [
+    require('daisyui')
+  ],
+  daisyui: {
+    themes: ["light", "dark", "winter"],
+  },
 }
 export default config
