@@ -1,0 +1,15 @@
+.sidebarNavContainer {
+    @apply px-[17px] pt-[17px] pb-[19.75px] bg-[#D9D9D9] max-w-[calc(max(17.184vw,_166px))] h-[594px] flex flex-col justify-between rounded-[8px] flex-[1_0_0] sticky top-[38px] left-0;
+}
+
+.sidebarInnerContainer {
+    @apply flex flex-col justify-between gap-[61px];
+}
+
+.listItem {
+    @apply text-[14px] uppercase font-[500] leading-[18px] hover:text-[#2F79BE] transition ease-in-out mb-[16px];
+}
+
+.listItem:last-of-type {
+    @apply mb-0;
+}

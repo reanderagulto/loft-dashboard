@@ -1,6 +1,6 @@
 import React from 'react';
-import Sidebar from '../Sidebar/Sidebar';
-import Topbar from '../Topbar/Topbar';
+import Sidebar from '@components/Sidebar/Sidebar';
+import Topbar from '@components/Topbar/Topbar';
 
 const CustomLayout = ({
     children,

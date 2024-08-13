@@ -1,10 +1,10 @@
 import React from 'react';
-import CustomLayout from '../components/CustomLayout/CustomLayout';
+import CustomLayout from '@components/CustomLayout/CustomLayout';
 
 const SpecialOffers = () => {
   return (
     <CustomLayout>
-      <div>Special Offers</div>
+      <h1 className='page-title'>Special Offers</h1>
     </CustomLayout>
   )
 }

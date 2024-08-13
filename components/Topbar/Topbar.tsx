@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Topbar = () => {
   return (
-    <div className="navbar bg-[#D9D9D9] rounded-[8px]">
+    <div className="navbar bg-[#D9D9D9] rounded-[8px] sticky top-[38px] right-0">
         <div className="flex flex-1 justify-end px-2">
             <div className="flex items-stretch">
             <Link className="btn btn-ghost" href="mailto: hello@loft.ph">hello@loft.ph</Link>
