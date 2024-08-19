@@ -5,7 +5,6 @@ const page = () => {
   return (
     <CustomLayout>
       <h1 className='page-title'>Dashboard</h1>
-      
     </CustomLayout>
   )
 }

@@ -25,21 +25,7 @@ const Products = async () => {
   const products = await res.json();
 
   return (
-    <CustomLayout>
-        <h1 className='page-title'>Products</h1>
-        <div className={styles.productsList}>
-        {
-            products && products.map((item: any) => {
-              return (
-                <ProductCard
-                  link={item?.permalink}
-                  title={item?.name} 
-                />
-              )
-            })
-          }
-        </div>
-    </CustomLayout>
+    <div>Hello World</div>
   )
 }
 
